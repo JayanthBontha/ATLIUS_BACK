@@ -110,7 +110,7 @@ app.delete("/invoices/:id", async (req, res) => {
   }
 });
 
-// list All Invoices
+// list all Invoices
 app.get("/invoices", async (req, res) => {
   try {
     const invoices = await Invoice.find();
